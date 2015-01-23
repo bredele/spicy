@@ -30,12 +30,13 @@ var bind = Function.prototype.bind;
 
 module.exports = function(fn, arity) {
   var length = arity || fn.length;
-  return function() {
+  var curry = function() {
     var args = [].slice.call(arguments);
     var l = args.length;
     if(l < length) {
-      return bind.apply(fn, [,].concat(args));
+      return bind.apply(curry, [,].concat(args));
     }
     return fn.apply(null, args);
   };
+  return curry;
 };
