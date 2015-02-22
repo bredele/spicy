@@ -1,6 +1,6 @@
 {
-  "name": "curry",
-  "version": "0.0.0",
+  "name": "curry-bind",
+  "version": "0.0.1",
   "description": "curry function using bind",
   "main": "index.js",
   "directories": {
