@@ -1,6 +1,6 @@
 {
-  "name": "curry",
-  "version": "0.0.0",
+  "name": "spicy",
+  "version": "0.1.0",
   "description": "curry function using bind",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bredele/curry.git"
+    "url": "https://github.com/bredele/spicy.git"
   },
   "keywords": [
     "curry"
@@ -19,9 +19,9 @@
   "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bredele/curry/issues"
+    "url": "https://github.com/bredele/spicy/issues"
   },
-  "homepage": "https://github.com/bredele/curry",
+  "homepage": "https://github.com/bredele/spicy",
   "devDependencies": {
     "mocha": "^2.1.0"
   }
