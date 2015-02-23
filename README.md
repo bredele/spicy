@@ -1,11 +1,11 @@
-# curry
+# spicy
 
 A curry function using function bind
 
 ## Usage
 
 ```js
-var curry = require('curry');
+var curry = require('spicy');
 
 var add = curry(function(a, b) {
 	return a + b;
